@@ -1,0 +1,25 @@
+.wrapper-profile {
+  padding-top: 24px;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 16px;
+  }
+  h5 {
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0f0f0f;
+    position: relative;
+    padding-bottom: 6px;
+    &:after {
+      position: absolute;
+      content: "";
+      width: 177px;
+      border-bottom: 2px solid #017cf8;
+      left: 0;
+      bottom: -9px;
+    }
+  }
+}

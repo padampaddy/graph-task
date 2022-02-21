@@ -1,0 +1,24 @@
+.inner-block {
+  padding: 6px 16px;
+  background: #ffffff;
+  border: 1px solid #dbe1e7;
+  border-radius: 16px;
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #0f0f0f;
+    margin-top: 16px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Satoshi-Regular";
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-weight: normal;
+    margin: 0 0 5px;
+  }
+}

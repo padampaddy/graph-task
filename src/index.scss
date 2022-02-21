@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "./satoshi.css";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  margin: 0;
+}
+.container {
+  max-width: 1190px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.profile {
+  border-bottom: 1px solid #ddd;
+}
+
+.graph > div {
+  background: #ffffff;
+
+  border: 1px solid #dbe1e7;
+  border-radius: 16px;
+  min-height: 355px;
+  width: 100%;
+}
+.profile select {
+  border: 0;
+  background: transparent;
+}
+.chart-title {
+  font-family: "Satoshi-light";
+  font-size: 14px;
+  margin-top: -8px;
+}
+.inner-doughnut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1{
+    font-size: 48px;
+    margin:0;
+    font-family: 'Satoshi-Medium';
+    text-align: center;
+  }
+  p{
+    margin: 0;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+  }
+}
